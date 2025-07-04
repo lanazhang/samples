@@ -6,7 +6,7 @@ Agentic workflow integration extends Nova Sonic's capabilities by incorporating 
 
 ## Integration Architecture 
 
-Amazon Nova Sonic relies on ToolUse to integrate withxw agentic workflows, such as Strands Agents. During Nova Sonic's event lifecycle, you can provide ToolUse configurations through the `PromptStart` event, which is designed to trigger when Sonic receives specific types of input.
+Amazon Nova Sonic relies on ToolUse to integrate withxw agentic workflows, such as Strands Agents. During Nova Sonic's event lifecycle, you can provide ToolUse configurations through the [`PromptStart` event](https://docs.aws.amazon.com/nova/latest/userguide/input-events.html), which is designed to trigger when Sonic receives specific types of input.
 
 For example, in the Strands Agents sample, we’ve configured ToolUse to trigger an event when the user input relates to the weather in a specific location—such as “How’s the weather in Seattle today?”
 
@@ -39,7 +39,7 @@ The diagram below illustrates how Nova Sonic’s built-in reasoning model invoke
 
 2 - Nova Sonic uses a relatively generic ToolUse definition and returns the ToolName via the ToolUse event.
 
-3 - Nova Sonic calls the Strands Agents by passing the input, such as 'weather in Seattle' without breaking it down into specific tools.
+3 - Nova Sonic app calls the Strands Agents by passing the input, such as 'weather in Seattle' without breaking it down into specific tools.
 
 4 - Nova Sonic processes the Agent response using the prior context and generates output in both text (ARS) and audio formats, streaming them back to the user's device.
 
