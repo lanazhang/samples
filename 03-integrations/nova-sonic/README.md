@@ -55,6 +55,6 @@ C - Invoke the Weather Tool to retrieve the current weather using latitude and l
 D - Generate a text response using the LLM reasoning model based on the information returned by the tools.
 
 ## Deploy the sample code
-You can follow [this instruction](https://github.com/aws-samples/amazon-nova-samples/tree/main/speech-to-speech/workshops) to deploy the Nova Sonic Workshop sample code, which includes the required components for Nova Sonic along with a module for [Strands integration](https://github.com/aws-samples/amazon-nova-samples/blob/main/speech-to-speech/workshops/python-server/integration/strands_agent.py). Then, refer to the Strands section to launch the Strands agent and test the workflow via voice chat.
+You can follow [this instruction](https://github.com/aws-samples/amazon-nova-samples/tree/main/speech-to-speech/workshops) to deploy the Nova Sonic Workshop sample code, which includes the required components for Nova Sonic along with a module for [Strands integration](https://github.com/aws-samples/amazon-nova-samples/blob/main/speech-to-speech/workshops/python-server/integration/strands_agent.py). Then, refer to the [Strands section](https://github.com/aws-samples/amazon-nova-samples/tree/main/speech-to-speech/workshops#strands-agent-integration) to launch the Strands agent and test the workflow via voice chat.
 
 For detailed instructions, please refer to the [Nova Sonic Workshop Strands Agent Lab](https://catalog.workshops.aws/amazon-nova-sonic-s2s/en-US/02-repeatable-pattern/03-strands).
